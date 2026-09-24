@@ -27,7 +27,7 @@ from pathlib import Path
 import numpy as np
 from PIL import Image
 
-ROOT = Path(r"C:\Users\LIHAOYANG\Desktop\扫描")
+ROOT = Path.home() / "Desktop" / "扫描"
 PROJ = ROOT / "根系分割项目"
 IMAGE_DIR = ROOT / "图片"
 STAGE1 = PROJ / "outputs" / "阶段一"

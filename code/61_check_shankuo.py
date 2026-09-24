@@ -14,8 +14,8 @@ except Exception:  # noqa: BLE001
     pass
 
 Image.MAX_IMAGE_PIXELS = None
-D = Path(r"C:\Users\LIHAOYANG\Desktop\杉阔混交林")
-OLD998 = Path(r"C:\Users\LIHAOYANG\Desktop\扫描\原始图片\9.8校准")
+D = Path.home() / "Desktop" / "杉阔混交林"
+OLD998 = Path.home() / "Desktop" / "扫描" / "原始图片" / "9.8校准"
 MACHINE = Path(r"D:\根系分割项目\机器图")
 
 

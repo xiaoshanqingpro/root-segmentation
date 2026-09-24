@@ -24,7 +24,7 @@ sys.path.insert(0, str(Path(__file__).parent))
 import paths as P  # noqa: E402
 
 PROJ = P.PROJ
-ROOT = Path(r"C:\Users\LIHAOYANG\Desktop\扫描")
+ROOT = Path.home() / "Desktop" / "扫描"
 STAGE1 = PROJ / "outputs" / "阶段一"
 OUT_DIR = PROJ / "outputs" / "阶段二"
 CFG_DIR = PROJ / "config"

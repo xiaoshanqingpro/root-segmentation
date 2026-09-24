@@ -5,7 +5,7 @@
   2. 与端到端误差合并
   3. 按"阴影占比"和"根灰度"分成两组，分别做误差统计（bootstrap 95% CI）
   4. 每组挑一条最有代表性的样本，出"原图 / 人工修图 / 机器修图 + 数据"证据图
-  5. 全部产物写进 C:\\Users\\LIHAOYANG\\Desktop\\测试\\调试\\
+  5. 全部产物写进 C:\\Users\\<用户名>\\Desktop\\测试\\调试\\
 """
 from __future__ import annotations
 

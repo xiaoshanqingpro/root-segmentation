@@ -42,7 +42,7 @@ def write_tiff(im: Image.Image, dst: Path, rows_per_strip=None, **extra):
 
 def main() -> int:
     src = Path(sys.argv[1]) if len(sys.argv) > 1 else \
-        Path(r"C:\Users\LIHAOYANG\Desktop\测试\机器\281-003-mac.tif")
+        (Path.home() / "Desktop" / "测试" / "机器" / "281-003-mac.tif")
     stem = src.stem.replace("-mac", "")
     print(f"源: {src}")
     im = Image.open(src).convert("RGB")

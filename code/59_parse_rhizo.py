@@ -4,7 +4,7 @@ from __future__ import annotations
 import sys
 from pathlib import Path
 
-SRC = Path(r"C:\Users\LIHAOYANG\Desktop\测试\测试数据.TXT")
+SRC = Path.home() / "Desktop" / "测试" / "测试数据.TXT"
 
 WANT = ["Length(cm)", "ProjArea(cm2)", "SurfArea(cm2)", "AvgDiam(mm)",
         "RootVolume(cm3)", "Tips", "Forks", "Crossings",

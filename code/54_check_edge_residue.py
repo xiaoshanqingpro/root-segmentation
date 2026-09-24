@@ -18,7 +18,7 @@ except Exception:  # noqa: BLE001
     pass
 
 Image.MAX_IMAGE_PIXELS = None
-MAC = Path(r"C:\Users\LIHAOYANG\Desktop\测试\机器\9.9改mac")
+MAC = Path.home() / "Desktop" / "测试" / "机器" / "9.9改mac"
 BAND = 0.03
 
 for f in sorted(MAC.glob("*-mac.tif")):

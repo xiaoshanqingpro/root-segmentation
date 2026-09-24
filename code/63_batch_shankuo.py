@@ -32,7 +32,7 @@ except Exception:  # noqa: BLE001
     pass
 
 Image.MAX_IMAGE_PIXELS = None
-SRC = Path(r"C:\Users\LIHAOYANG\Desktop\杉阔混交林")
+SRC = Path.home() / "Desktop" / "杉阔混交林"
 OUT = P.PROJ / "机器图_杉阔混交林"
 TARGET_DPI = 600.0
 WORKERS = 8

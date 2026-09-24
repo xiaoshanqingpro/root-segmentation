@@ -17,7 +17,7 @@ import numpy as np
 from PIL import Image
 
 Image.MAX_IMAGE_PIXELS = None
-DESKTOP = Path(r"C:\Users\LIHAOYANG\Desktop")
+DESKTOP = Path.home() / "Desktop"
 OUT = Path(r"D:\根系分割项目\outputs\训练数据审计")
 
 SEARCH_ROOTS = [

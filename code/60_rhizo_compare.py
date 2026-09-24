@@ -12,7 +12,7 @@ import re
 import sys
 from pathlib import Path
 
-SRC = Path(r"C:\Users\LIHAOYANG\Desktop\测试\测试数据.TXT")
+SRC = Path.home() / "Desktop" / "测试" / "测试数据.TXT"
 OUT = Path(r"D:\根系分割项目\outputs\Rhizo三方对比")
 OUT.mkdir(parents=True, exist_ok=True)
 

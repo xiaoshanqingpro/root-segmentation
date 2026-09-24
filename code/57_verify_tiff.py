@@ -9,7 +9,7 @@ Image.MAX_IMAGE_PIXELS = None
 
 TARGETS = [
     Path(r"D:\根系分割项目\机器图"),
-    Path(r"C:\Users\LIHAOYANG\Desktop\测试\机器"),
+    (Path.home() / "Desktop" / "测试" / "机器"),
     Path(r"D:\根系分割项目\outputs\预标注候选"),
     Path(r"D:\根系分割项目\人工修复mac图"),
 ]

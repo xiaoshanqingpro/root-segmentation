@@ -24,7 +24,7 @@ except Exception:  # noqa: BLE001
     pass
 
 Image.MAX_IMAGE_PIXELS = None
-SRC = Path(r"C:\Users\LIHAOYANG\Desktop\杉阔混交林")
+SRC = Path.home() / "Desktop" / "杉阔混交林"
 OUTD = Path(r"D:\根系分割项目\outputs\杉阔复核")
 EXTS = (".jpg", ".jpeg", ".tif", ".tiff", ".png")
 FEAT_LONG = 3000

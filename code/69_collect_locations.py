@@ -25,14 +25,14 @@ LOCATIONS = [
     ("└ _code_backup_20260923", P.PROJ / "_code_backup_20260923", "代码备份"),
     ("原始数据·数据集1", P.RAW_D1, "108 张，纵向 4962x7019"),
     ("原始数据·数据集2", P.RAW_D2, "215 张，横向 7019x4962"),
-    ("原始数据·杉阔混交林", Path(r"C:\Users\LIHAOYANG\Desktop\杉阔混交林"), "151 张，纵横向混合"),
+    ("原始数据·杉阔混交林", (Path.home() / "Desktop" / "杉阔混交林"), "151 张，纵横向混合"),
     ("真值/测试区", P.TEST, "人工标注、机器图、调试"),
     ("├ 人工", P.TEST_MAN, "人工标注（-man）"),
     ("├ 机器", P.TEST_MAC, "机器图（-mac）"),
     ("├ 原图", P.TEST_ORIG, "测试用原图"),
     ("└ 测试数据.TXT", P.TEST_DATA, "WinRHIZO 端到端输出"),
-    ("旧位置·采样数据", Path(r"C:\Users\LIHAOYANG\Desktop\采样数据"), "图片已移走，剩 OCR 脚本"),
-    ("残留·C盘根系分割项目", Path(r"C:\Users\LIHAOYANG\Desktop\扫描\根系分割项目"),
+    ("旧位置·采样数据", (Path.home() / "Desktop" / "采样数据"), "图片已移走，剩 OCR 脚本"),
+    ("残留·C盘根系分割项目", (Path.home() / "Desktop" / "扫描" / "根系分割项目"),
      "搬迁后残留（含另一线写的对比评估）"),
 ]
 

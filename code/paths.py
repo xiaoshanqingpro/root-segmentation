@@ -16,7 +16,8 @@ from __future__ import annotations
 
 from pathlib import Path
 
-DESKTOP = Path(r"C:\Users\LIHAOYANG\Desktop")
+# 由当前用户目录推导，不写死用户名；换机器/换用户名都不用改这里。
+DESKTOP = Path.home() / "Desktop"
 # 注意: DESKTOP 只用于"仍在桌面的外部数据"（原始图 SCAN / 测试区 TEST）。
 #       项目本体 PROJ 已搬到 D 盘，不再由 DESKTOP 推导。
 

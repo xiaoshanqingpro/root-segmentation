@@ -20,7 +20,7 @@ except Exception:  # noqa: BLE001
     pass
 
 PROJ = Path(r"D:\根系分割项目")
-TXT = Path(r"C:\Users\LIHAOYANG\Desktop\测试\测试数据.TXT")
+TXT = Path.home() / "Desktop" / "测试" / "测试数据.TXT"
 OUT = PROJ / "outputs" / "误差分析"
 
 METRICS = [("Length(cm)", "根总长", "cm"), ("SurfArea(cm2)", "表面积", "cm²"),

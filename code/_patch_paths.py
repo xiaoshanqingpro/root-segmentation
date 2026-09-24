@@ -1,7 +1,7 @@
 """一次性补丁：把 code\\ 下所有脚本里的硬编码路径统一换成 paths.py 引用。
 
 处理内容:
-  1. 旧字面量 Path(r"C:\\Users\\LIHAOYANG\\Desktop\\采样数据\\图片...")  ->  P.XXX
+  1. 旧字面量 Path(r"C:\\Users\\<用户名>\\Desktop\\采样数据\\图片...")  ->  P.XXX
   2. 重复定义的 PROJ / TEST 路径 -> P.PROJ / P.TEST
   3. 在 import 区插入 sys.path + import paths as P
 
@@ -19,7 +19,7 @@ except Exception:  # noqa: BLE001
     pass
 
 CODE = Path(r"D:\根系分割项目\code")
-DESK = r"C:\Users\LIHAOYANG\Desktop"
+DESK = str(Path.home() / "Desktop")
 
 # 顺序重要: 长的先替换，避免短前缀把长路径截断
 RULES = [

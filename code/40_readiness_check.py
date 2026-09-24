@@ -68,7 +68,7 @@ print()
 print("=" * 60)
 print("4. 人工真值（用户手工产出）")
 print("=" * 60)
-GT = Path(r"C:\Users\LIHAOYANG\Desktop\测试\人工\9.9改")
+GT = Path.home() / "Desktop" / "测试" / "人工" / "9.9改"
 if GT.exists():
     for p in sorted(GT.glob("*")):
         print(f"  {p.name:20s} {p.stat().st_size/1024**2:7.1f} MB  "

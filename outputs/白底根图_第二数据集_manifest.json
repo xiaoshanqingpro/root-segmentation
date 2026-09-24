@@ -1,6 +1,6 @@
 {
-  "src": "C:\\Users\\LIHAOYANG\\Desktop\\采样数据\\图片",
-  "out": "C:\\Users\\LIHAOYANG\\Desktop\\扫描\\根系分割项目\\白底根图_第二数据集",
+  "src": "C:\\Users\\<用户名>\\Desktop\\采样数据\\图片",
+  "out": "C:\\Users\\<用户名>\\Desktop\\扫描\\根系分割项目\\白底根图_第二数据集",
   "crop": false,
   "rotate": false,
   "excluded_dirs": [

@@ -150,7 +150,7 @@ def main() -> int:
     meta = json.loads(SAMPLE_STATS.read_text(encoding="utf-8"))
     rows = []
     for i, item in enumerate(meta["items"], 1):
-        p = Path(r"C:\Users\LIHAOYANG\Desktop\扫描") / item["rel_path"]
+        p = (Path.home() / "Desktop" / "扫描") / item["rel_path"]
         print(f"[{i}/{len(meta['items'])}] 基线 {p.name}", flush=True)
         rgb = load_rgb(p)
         L = build_layers(rgb)

@@ -13,9 +13,9 @@ except Exception:  # noqa: BLE001
     pass
 
 Image.MAX_IMAGE_PIXELS = None
-NEW = Path(r"C:\Users\LIHAOYANG\Desktop\杉阔混交林")
-RAW2 = Path(r"C:\Users\LIHAOYANG\Desktop\扫描\原始图片")
-RAW1 = Path(r"C:\Users\LIHAOYANG\Desktop\扫描\图片")
+NEW = Path.home() / "Desktop" / "杉阔混交林"
+RAW2 = Path.home() / "Desktop" / "扫描" / "原始图片"
+RAW1 = Path.home() / "Desktop" / "扫描" / "图片"
 MACHINE = Path(r"D:\根系分割项目\机器图")
 EXTS = (".jpg", ".jpeg", ".tif", ".tiff", ".png")
 

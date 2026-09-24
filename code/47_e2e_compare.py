@@ -1,6 +1,6 @@
 """汇总 6 张样本的「人工修图 vs 机器修图」WinRHIZO 端到端测量对比。
 
-数据源: C:\\Users\\LIHAOYANG\\Desktop\\测试\\测试数据.TXT（14 条记录）
+数据源: C:\\Users\\<用户名>\\Desktop\\测试\\测试数据.TXT（14 条记录）
 产出: outputs/端到端对比/端到端指标.csv + 对比图 + 控制台表
 """
 from __future__ import annotations

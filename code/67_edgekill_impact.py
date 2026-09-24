@@ -30,7 +30,7 @@ except Exception:  # noqa: BLE001
 
 Image.MAX_IMAGE_PIXELS = None
 EXTS = (".jpg", ".jpeg", ".tif", ".tiff", ".png")
-SHANKUO = Path(r"C:\Users\LIHAOYANG\Desktop\杉阔混交林")
+SHANKUO = Path.home() / "Desktop" / "杉阔混交林"
 
 SETS = {
     "数据集1": P.RAW_D1,

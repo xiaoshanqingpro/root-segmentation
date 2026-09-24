@@ -1,4 +1,4 @@
 ﻿样本,源文件,输出,带宽_上,带宽_下,带宽_左,带宽_右,剔除px,非白_before,非白_after,边框带非白_before%,边框带非白_after%
-22-001,C:\Users\LIHAOYANG\Desktop\测试\人工\9.9改\22-001-man.tif,C:\Users\LIHAOYANG\Desktop\扫描\根系分割项目\outputs\边框清理\cleaned\22-001-man-clean.tif,116,0,0,70,1063609,2026580,962971,49.44,5.75
-44-001,C:\Users\LIHAOYANG\Desktop\测试\人工\9.9改\44-001-man.tif,C:\Users\LIHAOYANG\Desktop\扫描\根系分割项目\outputs\边框清理\cleaned\44-001-man-clean.tif,194,0,0,68,1662447,2708227,1045780,50.8,1.78
-46-002,C:\Users\LIHAOYANG\Desktop\测试\人工\9.9改\46-002-man.jpg,C:\Users\LIHAOYANG\Desktop\扫描\根系分割项目\outputs\边框清理\cleaned\46-002-man-clean.tif,132,0,0,75,909160,1916020,1006860,43.47,6.39
+22-001,C:\Users\<用户名>\Desktop\测试\人工\9.9改\22-001-man.tif,C:\Users\<用户名>\Desktop\扫描\根系分割项目\outputs\边框清理\cleaned\22-001-man-clean.tif,116,0,0,70,1063609,2026580,962971,49.44,5.75
+44-001,C:\Users\<用户名>\Desktop\测试\人工\9.9改\44-001-man.tif,C:\Users\<用户名>\Desktop\扫描\根系分割项目\outputs\边框清理\cleaned\44-001-man-clean.tif,194,0,0,68,1662447,2708227,1045780,50.8,1.78
+46-002,C:\Users\<用户名>\Desktop\测试\人工\9.9改\46-002-man.jpg,C:\Users\<用户名>\Desktop\扫描\根系分割项目\outputs\边框清理\cleaned\46-002-man-clean.tif,132,0,0,75,909160,1916020,1006860,43.47,6.39

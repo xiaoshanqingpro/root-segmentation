@@ -19,7 +19,7 @@ import tiffsave  # noqa: F401, E402   (确保依赖可用)
 Image.MAX_IMAGE_PIXELS = None
 OUT = P.PROJ / "outputs" / "Rhizo三方对比"
 OUT.mkdir(parents=True, exist_ok=True)
-SRC_TXT = Path(r"C:\Users\LIHAOYANG\Desktop\测试\测试数据.TXT")
+SRC_TXT = Path.home() / "Desktop" / "测试" / "测试数据.TXT"
 MM_PER_PX = 25.4 / 600
 NONWHITE = 250
 

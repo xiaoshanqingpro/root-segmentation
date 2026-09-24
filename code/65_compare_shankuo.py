@@ -16,7 +16,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 import paths as P  # noqa: E402
 
 Image.MAX_IMAGE_PIXELS = None
-SRC = Path(r"C:\Users\LIHAOYANG\Desktop\杉阔混交林")
+SRC = Path.home() / "Desktop" / "杉阔混交林"
 MAC_CLS = P.PROJ / "机器图_杉阔混交林"          # 经典管线
 MAC_UNET = P.PROJ / "机器图_杉阔混交林_unet"     # U-Net
 OUT = P.PROJ / "outputs" / "杉阔混交林对比"

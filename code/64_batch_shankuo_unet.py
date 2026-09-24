@@ -33,7 +33,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 import paths as P  # noqa: E402
 
 Image.MAX_IMAGE_PIXELS = None
-SRC = Path(r"C:\Users\LIHAOYANG\Desktop\杉阔混交林")
+SRC = Path.home() / "Desktop" / "杉阔混交林"
 OUT = P.PROJ / "机器图_杉阔混交林_unet"
 EXTS = (".jpg", ".jpeg", ".tif", ".tiff", ".png")
 TARGET_DPI = 600.0
