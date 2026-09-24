@@ -1,0 +1,11 @@
+﻿file,rel_path,tiles,tiles_skipped,sam_masks,masks_root,root_pct,shadow_pct,seconds,label_path
+F120-001.jpg,图片\0808\F120-001.jpg,48,0,263,28,1.084,3.722,101.6,labels\mask_v0_candidate\F120-001_mask.png
+G27-003.jpg,图片\0807\G27-003.jpg,48,0,349,135,2.772,9.351,107.0,labels\mask_v0_candidate\G27-003_mask.png
+G218-002.jpg,图片\0814\G218-002.jpg,48,0,301,87,1.521,5.148,105.3,labels\mask_v0_candidate\G218-002_mask.png
+G66-001.jpg,图片\0807\G66-001.jpg,48,0,320,93,2.627,6.683,106.6,labels\mask_v0_candidate\G66-001_mask.png
+G7-003.jpg,图片\0807\G7-003.jpg,48,0,530,213,4.283,15.448,106.7,labels\mask_v0_candidate\G7-003_mask.png
+G66-003.jpg,图片\0807\G66-003.jpg,48,0,191,37,0.816,1.829,100.4,labels\mask_v0_candidate\G66-003_mask.png
+F120-003.jpg,图片\0808\F120-003.jpg,48,0,219,10,0.42,2.274,95.2,labels\mask_v0_candidate\F120-003_mask.png
+F160-003.jpg,图片\0811\F160-003.jpg,48,2,173,14,0.36,0.567,95.4,labels\mask_v0_candidate\F160-003_mask.png
+F169-001.jpg,图片\0811\F169-001.jpg,48,3,161,20,0.478,1.257,90.9,labels\mask_v0_candidate\F169-001_mask.png
+G207-002.jpg,图片\0814\G207-002.jpg,48,0,435,170,2.649,6.312,114.6,labels\mask_v0_candidate\G207-002_mask.png

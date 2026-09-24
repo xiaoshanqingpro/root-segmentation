@@ -1,0 +1,27 @@
+{
+  "mm_per_px": 0.042333333333333334,
+  "flood_tol": 20,
+  "halo_grow_px": 6,
+  "examples": [
+    {
+      "rule": "A",
+      "image": "图片\\0807\\G7-003.jpg",
+      "score": 0.38771
+    },
+    {
+      "rule": "B",
+      "image": "图片\\0814\\G218-002.jpg",
+      "score": 1.0
+    },
+    {
+      "rule": "C",
+      "image": "图片\\0807\\G66-003.jpg",
+      "score": 0.81847
+    },
+    {
+      "rule": "D",
+      "image": "图片\\0807\\G66-001.jpg",
+      "score": 158.18976
+    }
+  ]
+}

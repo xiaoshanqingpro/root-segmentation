@@ -1,0 +1,50 @@
+{
+  "proj": "C:\\Users\\LIHAOYANG\\Desktop\\扫描\\根系分割项目",
+  "total_gb": 48.76,
+  "items": [
+    {
+      "name": "机器图",
+      "gb": 27.83
+    },
+    {
+      "name": "outputs",
+      "gb": 19.25
+    },
+    {
+      "name": "processed",
+      "gb": 0.83
+    },
+    {
+      "name": "models",
+      "gb": 0.35
+    },
+    {
+      "name": "白底根图_第二数据集",
+      "gb": 0.33
+    },
+    {
+      "name": "白底根图",
+      "gb": 0.17
+    },
+    {
+      "name": "docs",
+      "gb": 0.01
+    },
+    {
+      "name": "_code_backup_20260923",
+      "gb": 0.0
+    },
+    {
+      "name": "code",
+      "gb": 0.0
+    },
+    {
+      "name": "config",
+      "gb": 0.0
+    },
+    {
+      "name": "labels",
+      "gb": 0.0
+    }
+  ]
+}

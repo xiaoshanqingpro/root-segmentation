@@ -1,0 +1,36 @@
+# 图像数据与产物：体积过大（合计约 67 GB），不入版本库。
+# 各目录的实际位置、体积与用途见 项目地址总清单.md
+机器图_CV/
+机器图_UNet/
+白底根图/
+白底根图_第二数据集/
+人工修复mac图/
+processed/
+models/
+_code_backup_20260923/
+
+# outputs/ 只保留纯文本产物（csv / md / txt / json），图像与权重一律忽略
+outputs/**
+!outputs/**/
+!outputs/**/*.csv
+!outputs/**/*.CSV
+!outputs/**/*.json
+!outputs/**/*.md
+!outputs/**/*.txt
+!outputs/**/*.TXT
+
+# 兜底：大文件类型
+*.tif
+*.tiff
+*.pt
+*.pth
+*.ckpt
+
+# Python
+__pycache__/
+*.py[cod]
+
+# 系统
+Thumbs.db
+desktop.ini
+.DS_Store

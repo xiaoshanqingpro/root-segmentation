@@ -1,0 +1,78 @@
+{
+  "seed": 42,
+  "n": 9,
+  "items": [
+    {
+      "file": "F120-001.jpg",
+      "rel_path": "图片\\0808\\F120-001.jpg",
+      "shadow_pct": 6.959,
+      "root_pct": 1.02,
+      "illum_range": 15.0,
+      "depth_p95": 28.0
+    },
+    {
+      "file": "F134-003.jpg",
+      "rel_path": "图片\\0811\\F134-003.jpg",
+      "shadow_pct": 1.972,
+      "root_pct": 0.307,
+      "illum_range": 7.0,
+      "depth_p95": 14.0
+    },
+    {
+      "file": "F166-001.jpg",
+      "rel_path": "图片\\0811\\F166-001.jpg",
+      "shadow_pct": 2.605,
+      "root_pct": 0.15,
+      "illum_range": 8.0,
+      "depth_p95": 14.0
+    },
+    {
+      "file": "F299-003.jpg",
+      "rel_path": "图片\\0811\\F299-003.jpg",
+      "shadow_pct": 3.95,
+      "root_pct": 0.382,
+      "illum_range": 7.0,
+      "depth_p95": 17.0
+    },
+    {
+      "file": "G136-002.jpg",
+      "rel_path": "图片\\G136-002.jpg",
+      "shadow_pct": 7.88,
+      "root_pct": 0.626,
+      "illum_range": 9.0,
+      "depth_p95": 34.0
+    },
+    {
+      "file": "G218-002.jpg",
+      "rel_path": "图片\\0814\\G218-002.jpg",
+      "shadow_pct": 11.385,
+      "root_pct": 0.77,
+      "illum_range": 24.0,
+      "depth_p95": 43.0
+    },
+    {
+      "file": "G27-003.jpg",
+      "rel_path": "图片\\0807\\G27-003.jpg",
+      "shadow_pct": 16.139,
+      "root_pct": 2.25,
+      "illum_range": 13.0,
+      "depth_p95": 58.0
+    },
+    {
+      "file": "G281-002.jpg",
+      "rel_path": "图片\\0814\\G281-002.jpg",
+      "shadow_pct": 8.72,
+      "root_pct": 0.623,
+      "illum_range": 6.0,
+      "depth_p95": 40.0
+    },
+    {
+      "file": "树根004.jpg",
+      "rel_path": "图片\\树根004.jpg",
+      "shadow_pct": 0.443,
+      "root_pct": 86.072,
+      "illum_range": 223.0,
+      "depth_p95": 157.0
+    }
+  ]
+}

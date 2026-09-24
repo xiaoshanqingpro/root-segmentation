@@ -1,0 +1,19 @@
+{
+  "best_val_dice": 0.9003770154070194,
+  "epochs": 40,
+  "final": {
+    "epoch": 40,
+    "train_loss": 0.3578,
+    "dice": 0.8532,
+    "iou": 0.744,
+    "precision": 0.8246,
+    "recall": 0.8838,
+    "lr": 0.0,
+    "sec": 4.8,
+    "peak_GPU_GB": 2.1
+  },
+  "n_train_patch": 186,
+  "n_val_patch": 68,
+  "encoder": "resnet34",
+  "seed": 42
+}

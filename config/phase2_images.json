@@ -1,0 +1,137 @@
+{
+  "seed": 42,
+  "n": 10,
+  "quota": {
+    "高": 4,
+    "中": 3,
+    "低": 3
+  },
+  "must_include": [
+    "图片\\0808\\F120-001.jpg",
+    "图片\\0807\\G27-003.jpg",
+    "图片\\0814\\G218-002.jpg",
+    "图片\\0807\\G66-001.jpg"
+  ],
+  "items": [
+    {
+      "rel_path": "图片\\0808\\F120-001.jpg",
+      "batch": "0808",
+      "processed_path": "processed\\600dpi\\0808\\F120-001.jpg",
+      "out_w": 4962,
+      "out_h": 6948,
+      "out_dpi": 600,
+      "resampled": false,
+      "crop_total_mm": 3.0,
+      "proxy_shadow_pct": 5.364,
+      "proxy_root_pct": 1.724
+    },
+    {
+      "rel_path": "图片\\0807\\G27-003.jpg",
+      "batch": "0807",
+      "processed_path": "processed\\600dpi\\0807\\G27-003.jpg",
+      "out_w": 4962,
+      "out_h": 7019,
+      "out_dpi": 600,
+      "resampled": false,
+      "crop_total_mm": 0.0,
+      "proxy_shadow_pct": 10.347,
+      "proxy_root_pct": 3.075
+    },
+    {
+      "rel_path": "图片\\0814\\G218-002.jpg",
+      "batch": "0814",
+      "processed_path": "processed\\600dpi\\0814\\G218-002.jpg",
+      "out_w": 5100,
+      "out_h": 6984,
+      "out_dpi": 600,
+      "resampled": false,
+      "crop_total_mm": 1.5,
+      "proxy_shadow_pct": 21.037,
+      "proxy_root_pct": 2.611
+    },
+    {
+      "rel_path": "图片\\0807\\G66-001.jpg",
+      "batch": "0807",
+      "processed_path": "processed\\600dpi\\0807\\G66-001.jpg",
+      "out_w": 4667,
+      "out_h": 6877,
+      "out_dpi": 600,
+      "resampled": false,
+      "crop_total_mm": 18.5,
+      "proxy_shadow_pct": 9.444,
+      "proxy_root_pct": 4.149
+    },
+    {
+      "rel_path": "图片\\0807\\G7-003.jpg",
+      "batch": "0807",
+      "processed_path": "processed\\600dpi\\0807\\G7-003.jpg",
+      "out_w": 4856,
+      "out_h": 6960,
+      "out_dpi": 600,
+      "resampled": false,
+      "crop_total_mm": 7.0,
+      "proxy_shadow_pct": 16.175,
+      "proxy_root_pct": 5.103
+    },
+    {
+      "rel_path": "图片\\0807\\G66-003.jpg",
+      "batch": "0807",
+      "processed_path": "processed\\600dpi\\0807\\G66-003.jpg",
+      "out_w": 4962,
+      "out_h": 7019,
+      "out_dpi": 600,
+      "resampled": false,
+      "crop_total_mm": 0.0,
+      "proxy_shadow_pct": 4.131,
+      "proxy_root_pct": 1.06
+    },
+    {
+      "rel_path": "图片\\0808\\F120-003.jpg",
+      "batch": "0808",
+      "processed_path": "processed\\600dpi\\0808\\F120-003.jpg",
+      "out_w": 4962,
+      "out_h": 6972,
+      "out_dpi": 600,
+      "resampled": false,
+      "crop_total_mm": 2.0,
+      "proxy_shadow_pct": 3.405,
+      "proxy_root_pct": 0.587
+    },
+    {
+      "rel_path": "图片\\0811\\F160-003.jpg",
+      "batch": "0811",
+      "processed_path": "processed\\600dpi\\0811\\F160-003.jpg",
+      "out_w": 4962,
+      "out_h": 7019,
+      "out_dpi": 600,
+      "resampled": false,
+      "crop_total_mm": 0.0,
+      "proxy_shadow_pct": 1.054,
+      "proxy_root_pct": 0.42
+    },
+    {
+      "rel_path": "图片\\0811\\F169-001.jpg",
+      "batch": "0811",
+      "processed_path": "processed\\600dpi\\0811\\F169-001.jpg",
+      "out_w": 4962,
+      "out_h": 7019,
+      "out_dpi": 600,
+      "resampled": false,
+      "crop_total_mm": 0.0,
+      "proxy_shadow_pct": 1.467,
+      "proxy_root_pct": 0.638
+    },
+    {
+      "rel_path": "图片\\0814\\G207-002.jpg",
+      "batch": "0814",
+      "processed_path": "processed\\600dpi\\0814\\G207-002.jpg",
+      "out_w": 4962,
+      "out_h": 6983,
+      "out_dpi": 600,
+      "resampled": true,
+      "crop_total_mm": 1.5,
+      "proxy_shadow_pct": 8.879,
+      "proxy_root_pct": 3.614
+    }
+  ]
+}
